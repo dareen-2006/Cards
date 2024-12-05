@@ -1,19 +1,10 @@
-@media screen and (min-width:576px){
-    .carousel-inner{
-        display:flex;
-        
-    }
-    .carousel-item{
-        display :block;
-        margin-right:0;
-        flex:0 0 calc(100%/3)
-    }
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
-@media screen and (min-width: 576px) {
-    .carousel-inner {
-      display: flex;  /* Flex display for inner items */
-    }
-  .carousel-inner{
-    padding :1em
-  }
+
+.carousel-item .d-flex {
+  gap: 2rem;
 }
